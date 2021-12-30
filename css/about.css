@@ -126,11 +126,15 @@
   .about_com_all{
     padding: 50px;
   }
-
+  
   .about_mem_all{
     padding: 50px;
   }
-
+}
+  
+  /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+  
+@media screen and (max-width: 480px) {
   .about_com_all{
     display: block;
   }
@@ -167,7 +171,7 @@
 
   .about_acc_list{
     position: relative;
-    margin: 30px ;
+    margin: 30px 0;
     top: 0;
     left: 0;
     transform: none;
@@ -186,3 +190,4 @@
     -webkit-clip-path: none;
   }
 }
+

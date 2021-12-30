@@ -6,25 +6,37 @@
     height: 120%;
   }
 
-  .service_item.service_item._service2,
-  .service_item.service_item._service3,
-  .service_item.service_item._service4 {
+  .service_item._service2,
+  .service_item._service3,
+  .service_item._service4 {
     bottom: 0;
     margin: 0 auto 10%;
   }
 
-  .intro{
+  .intro {
     width: 100%;
   }
 
-  .intro_txt{
+  .intro_txt {
     margin-bottom: 50px;
   }
 
-  .about_sub_ttl{
+  .about_sub_ttl {
     padding-top: 20px;
   }
 
+  .service_item {
+    width: 100%;
+    margin: 0 0 10%;
+    height: auto;
+  }
+
+  .service_inner_txt {
+    left: 46px;
+  }
+}
+
+@media screen and (max-width: 480px) {
   .service_item{
     width: 100%;
     margin: 0 0 10%;
@@ -32,6 +44,7 @@
   }
 
   .service_inner_txt{
-    left: 46px;
+    left: 46%;
   }
 }
+
