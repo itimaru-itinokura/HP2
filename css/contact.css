@@ -118,11 +118,27 @@
   transition: 0.4s;
 }
 
-@media screen and(max-width:768px) {
+@media screen and (max-width: 768px) {
   .contact_img {
     width: 70%;
     bottom: 200px;
     margin-bottom: 0;
+  }
+
+  .contact_form_ttl::after {
+    content: "必須";
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+    width: 96px;
+    line-height: 32px;
+    font-size: 15px;
+    color: #c72930;
+    border: 1px solid #c72930;
+    border-radius: 2px;
   }
 
   .contact_form_box1,
